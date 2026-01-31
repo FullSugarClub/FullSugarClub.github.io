@@ -1,5 +1,5 @@
 /* Sevilla.css                                                */
-/* This template (C)2006-2021 JBF Software                    */
+/* This template (C)2006-2024 JBF Software                    */
 /* Created by JP Hendriks                                     */
 /* https://www.jbfsoftware.com                                */
 /*                                                            */
@@ -405,6 +405,7 @@
 /* maybe in conjunction with the table's id.                  */
 .XTableCell
 {
+	min-width: 12px;
 }
 
 /* XTableAxis is special styling for the cells that are not   */
@@ -433,7 +434,7 @@
 /*	border-width:0px; */
 }
 
-/* ShowBoard is the style used for a board begin shown        */
+/* ShowBoard is the style used for a board being shown        */
 /* It is unlikely you need to change this                     */
 .ShowBoard
 {
@@ -450,10 +451,10 @@
 	position: absolute;
 	width: 508px;
 	height: 376px;
-	top: expression(eval(document.body.scrollTop+70));
+/*	top: expression(eval(document.body.scrollTop+70)); */
 }
 
-/* HideBboard is the style used for a board begin hidden      */
+/* HideBboard is the style used for a board being hidden      */
 /* It is unlikely you need to change this                     */
 .HideBoard
 {
